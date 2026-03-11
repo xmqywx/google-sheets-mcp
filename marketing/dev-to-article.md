@@ -24,7 +24,7 @@ I'd already built an MCP server for Shopify. Google Sheets was the obvious next 
 
 ## The Google Sheets MCP Server: 14 Tools
 
-The package is called `google-sheets-mcp` on npm. It wraps the official Google Sheets API with 14 tools Claude can call directly:
+The package is called `@xmqywxkris/google-sheets-mcp` on npm. It wraps the official Google Sheets API with 14 tools Claude can call directly:
 
 | Tool | What It Does |
 |------|-------------|
@@ -96,7 +96,7 @@ That used to take me five minutes of clicking around the toolbar.
 ### Step 1: Install
 
 ```bash
-npm install -g google-sheets-mcp
+npm install -g @xmqywxkris/google-sheets-mcp
 ```
 
 ### Step 2: Google Cloud Service Account
@@ -149,7 +149,7 @@ I'm planning to add batch operations (update multiple ranges in one call) and a 
 
 ## Links
 
-- **npm:** `npm install google-sheets-mcp`
+- **npm:** `npm install @xmqywxkris/google-sheets-mcp`
 - **GitHub:** [github.com/xmqywx/google-sheets-mcp](https://github.com/xmqywx/google-sheets-mcp)
 - **Need a custom MCP server or automation?** I'm available on [Upwork](https://www.upwork.com) — search for "MCP server developer" or message me directly. I build AI integrations, automation pipelines, and custom tooling for teams who are tired of doing things manually.
 

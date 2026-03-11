@@ -1,6 +1,6 @@
 # Google Sheets MCP Server
 
-[![npm version](https://img.shields.io/npm/v/google-sheets-mcp.svg)](https://www.npmjs.com/package/google-sheets-mcp)
+[![npm version](https://img.shields.io/npm/v/@xmqywxkris/google-sheets-mcp.svg)](https://www.npmjs.com/package/@xmqywxkris/google-sheets-mcp)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 A production-ready [Model Context Protocol](https://modelcontextprotocol.io) server that gives AI assistants full access to Google Sheets. Read, write, format, and manage spreadsheets directly from Claude, GPT, or any MCP-compatible client.
@@ -39,13 +39,13 @@ This MCP server wraps the Google Sheets API v4 and exposes 14 tools that let AI 
 ### Install
 
 ```bash
-npm install -g google-sheets-mcp
+npm install -g @xmqywxkris/google-sheets-mcp
 ```
 
 Or use directly with npx:
 
 ```bash
-npx -y google-sheets-mcp
+npx -y @xmqywxkris/google-sheets-mcp
 ```
 
 ### Claude Desktop
@@ -57,7 +57,7 @@ Add to your `claude_desktop_config.json`:
   "mcpServers": {
     "google-sheets": {
       "command": "npx",
-      "args": ["-y", "google-sheets-mcp"],
+      "args": ["-y", "@xmqywxkris/google-sheets-mcp"],
       "env": {
         "GOOGLE_SERVICE_ACCOUNT_KEY": "/path/to/service-account.json"
       }

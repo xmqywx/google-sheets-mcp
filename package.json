@@ -1,10 +1,10 @@
 {
-  "name": "google-sheets-mcp",
+  "name": "@xmqywxkris/google-sheets-mcp",
   "version": "1.0.0",
   "description": "MCP server for Google Sheets — read, write, format, and manage spreadsheets from any AI assistant",
   "type": "module",
   "bin": {
-    "google-sheets-mcp": "dist/index.js"
+    "@xmqywxkris/google-sheets-mcp": "dist/index.js"
   },
   "main": "dist/index.js",
   "scripts": {
