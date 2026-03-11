@@ -1,0 +1,14 @@
+{
+  "name": "google-sheets-mcp",
+  "version": "1.0.0",
+  "description": "Connect Cursor AI to Google Sheets — read, write, format, and analyze spreadsheets through natural language",
+  "author": {
+    "name": "Ying",
+    "email": "ying@chatwise.ai"
+  },
+  "keywords": ["google-sheets", "spreadsheet", "mcp", "data", "automation"],
+  "logo": "assets/logo.svg",
+  "rules": "rules/",
+  "skills": "skills/",
+  "mcpServers": ".mcp.json"
+}

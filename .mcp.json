@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "google-sheets": {
+      "command": "npx",
+      "args": ["-y", "google-sheets-mcp"],
+      "env": {
+        "GOOGLE_SERVICE_ACCOUNT_KEY": "",
+        "GOOGLE_SHEETS_API_KEY": ""
+      }
+    }
+  }
+}

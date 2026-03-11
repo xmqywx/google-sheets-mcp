@@ -1,0 +1,17 @@
+---
+description: Google Sheets conventions and best practices when working with spreadsheet data
+alwaysApply: false
+globs: "**/*.{ts,js,json,csv}"
+---
+
+When working with Google Sheets:
+- Use A1 notation for ranges (e.g., "Sheet1!A1:C10")
+- Sheet names with spaces must be quoted in A1 notation: 'My Sheet'!A1:B10
+- Service accounts need the spreadsheet shared with them (editor access)
+- API keys only provide read-only access
+- Batch operations are more efficient than cell-by-cell updates
+- Use append_rows for adding data (don't manually find the last row)
+- Format cells after writing data, not before
+- Spreadsheet IDs are in the URL: docs.google.com/spreadsheets/d/{SPREADSHEET_ID}/
+- Maximum cells per spreadsheet: 10 million
+- Rate limits: 300 requests per minute per project
