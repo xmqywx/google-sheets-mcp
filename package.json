@@ -1,7 +1,12 @@
 {
   "name": "@xmqywxkris/google-sheets-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "mcpName": "io.github.xmqywx/google-sheets",
   "description": "MCP server for Google Sheets — read, write, format, and manage spreadsheets from any AI assistant",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xmqywx/google-sheets-mcp.git"
+  },
   "type": "module",
   "bin": {
     "@xmqywxkris/google-sheets-mcp": "dist/index.js"
