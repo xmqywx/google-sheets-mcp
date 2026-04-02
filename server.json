@@ -1,7 +1,7 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.xmqywx/google-sheets",
-  "description": "MCP server for Google Sheets — read, write, format, and manage spreadsheets from AI assistants. 14 tools for comprehensive spreadsheet automation.",
+  "description": "MCP server for Google Sheets — read, write, format, and manage spreadsheets.",
   "repository": {
     "url": "https://github.com/xmqywx/google-sheets-mcp",
     "source": "github"
